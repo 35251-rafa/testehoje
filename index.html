@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Rafael Pariz de Moraes | Portfólio Tech - 2º B Técnico em TI</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Portfólio de Rafael Pariz de Moraes - Desenvolvedor focado em soluções Web modernas, interfaces interativas e projetos no curso Técnico em TI.">
+  <meta name="author" content="Rafael Pariz de Moraes">
+  <meta name="theme-color" content="#0A0D14">
+
+  <!-- Google Fonts: Syne, Space Grotesk, Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="dark">
+  <!-- Background Glow & Cyber Grid Elements -->
+  <div class="cyber-glow-orb orb-1" aria-hidden="true"></div>
+  <div class="cyber-glow-orb orb-2" aria-hidden="true"></div>
+  <div class="cyber-grid-overlay" aria-hidden="true"></div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <a href="#hero" class="brand-logo" aria-label="Ir para o topo - Rafael Pariz">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-code">RP</span>
+        <span class="logo-bracket">/&gt;</span>
+        <span class="status-indicator">
+          <span class="status-dot"></span>
+          <span class="status-text">ONLINE</span>
+        </span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="navMenu" aria-label="Navegação Principal">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Início</a></li>
+          <li class="nav-item"><a href="#metricas" class="nav-link">Métricas</a></li>
+          <li class="nav-item"><a href="#sobre" class="nav-link">Sobre Mim</a></li>
+          <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+          <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Controls: Theme Switcher & Actions -->
+      <div class="header-actions">
+        <button id="themeToggle" class="theme-toggle-btn" aria-label="Alternar modo claro e escuro" title="Alternar tema">
+          <svg class="theme-icon sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="theme-icon moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <a href="#contato" class="btn btn-header-cta">
+          <span>Terminal</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="4 17 10 11 4 5"></polyline>
+            <line x1="12" y1="19" x2="20" y2="19"></line>
+          </svg>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobileMenuToggle" class="mobile-menu-toggle" aria-label="Abrir menu de navegação" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main id="mainContent">
+
+    <!-- SEÇÃO HERO -->
+    <section class="section-hero" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <!-- Tag com Glow -->
+          <div class="hero-badge">
+            <span class="glow-pulse-dot"></span>
+            <span class="hero-badge-text">2º B - Técnico em TI</span>
+          </div>
+
+          <!-- Nome Marcante -->
+          <h1 class="hero-title">
+            Rafael Pariz <br>
+            <span class="gradient-text">de Moraes</span>
+          </h1>
+
+          <!-- Frase de Apresentação Oficial -->
+          <p class="hero-lead">
+            Desenvolvedor focado em soluções Web modernas, interfaces interativas e projetos no curso Técnico em TI.
+          </p>
+
+          <!-- Botões de Ação -->
+          <div class="hero-actions">
+            <a href="#projetos" class="btn btn-primary" id="btnHeroProjetos">
+              <span>Ver Projetos</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            
+            <a href="#contato" class="btn btn-secondary" id="btnHeroContato">
+              <span>Contato</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+
+            <button type="button" class="btn btn-terminal-copy" id="btnCopyEmailHero" title="Copiar e-mail de contato">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span class="email-label">35251@raphaeldisanto</span>
+              <span class="copy-badge">Copiar</span>
+            </button>
+          </div>
+
+          <!-- Tech Tags Rápidas -->
+          <div class="hero-tech-pills">
+            <span class="tech-pill"><span class="pill-dot"></span>HTML5 Semântico</span>
+            <span class="tech-pill"><span class="pill-dot"></span>CSS3 Moderno</span>
+            <span class="tech-pill"><span class="pill-dot"></span>JavaScript ES6+</span>
+            <span class="tech-pill"><span class="pill-dot"></span>Design Responsivo</span>
+          </div>
+        </div>
+
+        <!-- Hero Tech Card / Code Preview -->
+        <div class="hero-visual">
+          <div class="tech-card-wrapper glow-card">
+            <div class="terminal-bar">
+              <div class="terminal-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <span class="terminal-title">dev-profile.json</span>
+              <span class="terminal-badge">LIVE</span>
+            </div>
+            <div class="terminal-code">
+              <pre><code><span class="code-keyword">const</span> <span class="code-variable">developer</span> = {
+  <span class="code-property">name</span>: <span class="code-string">"Rafael Pariz de Moraes"</span>,
+  <span class="code-property">course</span>: <span class="code-string">"2º ano B - Técnico em TI"</span>,
+  <span class="code-property">contact</span>: <span class="code-string">"35251@raphaeldisanto"</span>,
+  <span class="code-property">skills</span>: [
+    <span class="code-string">"HTML5"</span>, 
+    <span class="code-string">"CSS Moderno"</span>, 
+    <span class="code-string">"JavaScript"</span>, 
+    <span class="code-string">"Lógica"</span>
+  ],
+  <span class="code-property">projects</span>: [
+    <span class="code-string">"Página Hacker"</span>, 
+    <span class="code-string">"Projeto Iota"</span>
+  ],
+  <span class="code-property">status</span>: <span class="code-string">"Ativo & Criando Soluções"</span>
+};</code></pre>
+            </div>
+            <div class="terminal-status-footer">
+              <div class="status-item">
+                <span class="status-symbol">⚡</span>
+                <span>Rolagem: 100% Nativa</span>
+              </div>
+              <div class="status-item">
+                <span class="status-symbol">🛡️</span>
+                <span>Vanilla Tech Stack</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO MÉTRICAS TECH -->
+    <section class="section-metrics" id="metricas">
+      <div class="container">
+        <div class="section-header-compact">
+          <span class="section-tag">// PERFORMANCE & TRAJETÓRIA</span>
+          <h2 class="section-title-compact">Métricas em Tempo Real</h2>
+        </div>
+
+        <div class="metrics-grid">
+          <!-- Métrica 1 -->
+          <div class="metric-card glow-card">
+            <div class="metric-icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                <polygon points="12 11 12 17 16 14"></polygon>
+              </svg>
+            </div>
+            <div class="metric-number-wrap">
+              <span class="counter-number" data-target="2" data-format="prefix-zero" data-suffix="+">00</span>
+            </div>
+            <h3 class="metric-label">Projetos No Ar</h3>
+            <p class="metric-desc">Aplicações web funcionais publicadas e ativas em produção na Vercel.</p>
+            <div class="metric-track"><div class="metric-bar" style="--metric-progress: 100%;"></div></div>
+          </div>
+
+          <!-- Métrica 2 -->
+          <div class="metric-card glow-card">
+            <div class="metric-icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              </svg>
+            </div>
+            <div class="metric-number-wrap">
+              <span class="counter-number" data-target="2" data-format="ordinal">0º</span>
+            </div>
+            <h3 class="metric-label">Ano Tec-TI</h3>
+            <p class="metric-desc">Turma 2º B, consolidando práticas sólidas de programação e desenvolvimento de sistemas.</p>
+            <div class="metric-track"><div class="metric-bar" style="--metric-progress: 80%;"></div></div>
+          </div>
+
+          <!-- Métrica 3 -->
+          <div class="metric-card glow-card">
+            <div class="metric-icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <div class="metric-number-wrap">
+              <span class="counter-number" data-target="100" data-suffix="%">0</span>
+            </div>
+            <h3 class="metric-label">Responsivo & Fluido</h3>
+            <p class="metric-desc">Layout adaptável a qualquer dispositivo com rolagem 100% nativa sem travamentos.</p>
+            <div class="metric-track"><div class="metric-bar" style="--metric-progress: 100%;"></div></div>
+          </div>
+
+          <!-- Métrica 4 -->
+          <div class="metric-card glow-card">
+            <div class="metric-icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <div class="metric-number-wrap">
+              <span class="counter-number" data-target="500" data-suffix="+">0</span>
+            </div>
+            <h3 class="metric-label">Horas de Código Prático</h3>
+            <p class="metric-desc">Dedicação constante ao aprendizado, algoritmos e criação de novas interfaces web.</p>
+            <div class="metric-track"><div class="metric-bar" style="--metric-progress: 92%;"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO SOBRE MIM & COMPETÊNCIAS DASHBOARD -->
+    <section class="section-about" id="sobre">
+      <div class="container">
+        <div class="about-grid">
+          <!-- Coluna 1: Perfil & Bio -->
+          <div class="about-bio-card glow-card">
+            <div class="card-badge-line">
+              <span class="section-tag">// PERFIL PROFISSIONAL</span>
+              <span class="system-id">SYS_ID: 35251</span>
+            </div>
+            <h2 class="about-title">Desenvolvimento Focado em Resultados & Código Limpo</h2>
+            
+            <p class="about-text">
+              Olá! Sou <strong>Rafael Pariz de Moraes</strong>, estudante do <strong>2º ano B - Técnico em TI</strong>. Minha atuação é focada na construção de soluções web modernas, responsivas e de alta performance.
+            </p>
+            <p class="about-text">
+              Acredito na combinação entre visual impactante e engenharia robusta: interfaces interativas com CSS puro, manipulação precisa do DOM com JavaScript vanilla e respeito aos padrões de acessibilidade e semântica web.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <span class="highlight-icon">🎯</span>
+                <div>
+                  <strong>Foco Técnico</strong>
+                  <p>Aplicações Web, Arquitetura Front-End e Lógica</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-icon">⚡</span>
+                <div>
+                  <strong>Filosofia de Código</strong>
+                  <p>Sem inchaço de frameworks quando não necessário: leveza e velocidade</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-icon">📫</span>
+                <div>
+                  <strong>Canal de Comunicação</strong>
+                  <p>35251@raphaeldisanto</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-card-action">
+              <a href="#contato" class="btn btn-outline-cyber">
+                <span>Iniciar Conversa no Terminal</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Coluna 2: Competências Técnicas (Dashboard Grid) -->
+          <div class="about-skills-wrapper">
+            <div class="section-header-compact">
+              <span class="section-tag">// STACK TÉCNICA</span>
+              <h3 class="skills-heading">Competências & Habilidades</h3>
+            </div>
+
+            <div class="skills-grid">
+              <!-- Skill 1: HTML5 -->
+              <div class="skill-card glow-card">
+                <div class="skill-header">
+                  <div class="skill-icon html-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="16 18 22 12 16 6"></polyline>
+                      <polyline points="8 6 2 12 8 18"></polyline>
+                    </svg>
+                  </div>
+                  <div class="skill-meta">
+                    <h4>HTML5</h4>
+                    <span class="skill-level">Avançado / Estrutural</span>
+                  </div>
+                </div>
+                <p class="skill-description">Marcação semântica, acessibilidade (a11y), SEO técnico e estruturação hierárquica limpa.</p>
+                <div class="skill-tags">
+                  <span class="tag">Semântica</span>
+                  <span class="tag">SEO</span>
+                  <span class="tag">W3C</span>
+                </div>
+              </div>
+
+              <!-- Skill 2: CSS3 -->
+              <div class="skill-card glow-card">
+                <div class="skill-header">
+                  <div class="skill-icon css-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                      <polyline points="2 17 12 22 22 17"></polyline>
+                      <polyline points="2 12 12 17 22 12"></polyline>
+                    </svg>
+                  </div>
+                  <div class="skill-meta">
+                    <h4>CSS3 Moderno</h4>
+                    <span class="skill-level">Design System & Efeitos</span>
+                  </div>
+                </div>
+                <p class="skill-description">Flexbox, CSS Grid, variáveis nativas, micro-animações, Glassmorphism e Dark Themes.</p>
+                <div class="skill-tags">
+                  <span class="tag">CSS Grid</span>
+                  <span class="tag">Flexbox</span>
+                  <span class="tag">Glow Effects</span>
+                </div>
+              </div>
+
+              <!-- Skill 3: JavaScript -->
+              <div class="skill-card glow-card">
+                <div class="skill-header">
+                  <div class="skill-icon js-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="2" y="2" width="20" height="20" rx="4" ry="4"></rect>
+                      <line x1="8" y1="17" x2="8" y2="13"></line>
+                      <path d="M8 17c0 1.5 1 2 2 2s2-.5 2-2v-6"></path>
+                      <path d="M15 13c1 0 2 .5 2 1.5s-.8 1.5-2 1.5c-1 0-2 .5-2 1.5s1 1.5 2 1.5"></path>
+                    </svg>
+                  </div>
+                  <div class="skill-meta">
+                    <h4>JavaScript ES6+</h4>
+                    <span class="skill-level">Lógica & DOM Dinâmico</span>
+                  </div>
+                </div>
+                <p class="skill-description">Manipulação avançada de DOM, IntersectionObserver, validação de formulários, eventos assíncronos.</p>
+                <div class="skill-tags">
+                  <span class="tag">DOM API</span>
+                  <span class="tag">ES6+</span>
+                  <span class="tag">Observer API</span>
+                </div>
+              </div>
+
+              <!-- Skill 4: Lógica de Programação -->
+              <div class="skill-card glow-card">
+                <div class="skill-header">
+                  <div class="skill-icon logic-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="18" cy="18" r="3"></circle>
+                      <circle cx="6" cy="6" r="3"></circle>
+                      <path d="M13 6h3a2 2 0 0 1 2 2v7"></path>
+                      <line x1="6" y1="9" x2="6" y2="21"></line>
+                    </svg>
+                  </div>
+                  <div class="skill-meta">
+                    <h4>Lógica & Algoritmos</h4>
+                    <span class="skill-level">Técnico em TI</span>
+                  </div>
+                </div>
+                <p class="skill-description">Resolução analítica de problemas, algoritmos eficientes, estruturação de dados e modularização.</p>
+                <div class="skill-tags">
+                  <span class="tag">Algoritmos</span>
+                  <span class="tag">Clean Code</span>
+                  <span class="tag">Fluxo de Dados</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO PROJETOS OBRIGATÓRIOS -->
+    <section class="section-projects" id="projetos">
+      <div class="container">
+        <div class="section-header-centered">
+          <span class="section-tag">// PROJETOS EM DESTAQUE</span>
+          <h2 class="section-title">Portfólio de Aplicações</h2>
+          <p class="section-subtitle">
+            Projetos práticos desenvolvidos com foco em interatividade, interfaces modernas e publicação em nuvem.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- PROJETO 1: PÁGINA HACKER -->
+          <article class="project-card glow-card" id="card-projeto-hacker">
+            <div class="project-preview preview-hacker">
+              <div class="preview-backdrop hacker-backdrop">
+                <div class="matrix-code-stream">
+                  <span>&gt; INITIATING_BREACH_SEQUENCE...</span>
+                  <span>[STATUS]: 0x7F SYSTEM_ACCESS_GRANTED</span>
+                  <span>root@kali:~# ./hacker_protocol.sh</span>
+                  <span>CONNECTING TO TARGET PORT [8080]...</span>
+                  <span>ENCRYPTION: AES-256 GCM ACTIVE</span>
+                </div>
+              </div>
+              <div class="preview-badge">
+                <span class="pulse-beacon green"></span>
+                <span>CYBER / TERMINAL</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta-top">
+                <span class="project-index">PROJETO #01</span>
+                <span class="project-deploy-status">Online na Vercel</span>
+              </div>
+
+              <h3 class="project-title">Página Hacker</h3>
+              
+              <p class="project-description">
+                Aplicação imersiva inspirada na estética hacker e cyberpunk. Apresenta console interativo, simulação de comandos, tipografia em estilo terminal e efeitos de iluminação verde e ciano de alto contraste.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="tech-badge">HTML5</span>
+                <span class="tech-badge">CSS Cyberpunk</span>
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">Terminal UI</span>
+                <span class="tech-badge">Vercel</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://pagina-hacker.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-project-primary">
+                  <span>Acessar Projeto</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                
+                <button type="button" class="btn btn-project-details" data-project="hacker">
+                  <span>Detalhes Técnicos</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJETO 2: PROJETO IOTA -->
+          <article class="project-card glow-card" id="card-projeto-iota">
+            <div class="project-preview preview-iota">
+              <div class="preview-backdrop iota-backdrop">
+                <div class="iota-ui-mockup">
+                  <div class="mockup-header">
+                    <span class="mock-dot"></span>
+                    <span class="mock-dot"></span>
+                    <span class="mock-dot"></span>
+                    <span class="mock-title">iota-platform.app</span>
+                  </div>
+                  <div class="mockup-content">
+                    <div class="mock-card"></div>
+                    <div class="mock-card"></div>
+                    <div class="mock-card wide"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="preview-badge">
+                <span class="pulse-beacon blue"></span>
+                <span>MODERN UI / WEB</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta-top">
+                <span class="project-index">PROJETO #02</span>
+                <span class="project-deploy-status">Online na Vercel</span>
+              </div>
+
+              <h3 class="project-title">Projeto Iota</h3>
+              
+              <p class="project-description">
+                Interface web refinada e moderna concebida para navegação limpa, tipografia expressiva e alta responsividade. Foco em arquitetura de componentes visuais, hierarquia e usabilidade fluida.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="tech-badge">HTML5</span>
+                <span class="tech-badge">CSS Grid & Flexbox</span>
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">UI/UX Moderno</span>
+                <span class="tech-badge">Vercel</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://projeto-iota-rosy.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-project-primary">
+                  <span>Acessar Projeto</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+
+                <button type="button" class="btn btn-project-details" data-project="iota">
+                  <span>Detalhes Técnicos</span>
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO CONTATO TERMINAL -->
+    <section class="section-contact" id="contato">
+      <div class="container">
+        <div class="contact-wrapper">
+          <!-- Terminal Form Container -->
+          <div class="contact-terminal glow-card">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <div class="terminal-tab">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="4 17 10 11 4 5"></polyline>
+                  <line x1="12" y1="19" x2="20" y2="19"></line>
+                </svg>
+                <span>bash ~ rafael@pariz: contact-form</span>
+              </div>
+              <div class="terminal-controls-label">TCP: 35251</div>
+            </div>
+
+            <div class="terminal-body">
+              <div class="terminal-prompt-intro">
+                <span class="prompt-user">rafael@pariz</span>:<span class="prompt-dir">~/portfolio</span>$
+                <span class="prompt-cmd">send-message --to "35251@raphaeldisanto"</span>
+              </div>
+              <p class="terminal-subtext">
+                // Preencha os campos abaixo para estabelecer comunicação direta. Validação em tempo real ativada.
+              </p>
+
+              <!-- Formulário de Contato -->
+              <form class="terminal-form" id="contactForm" novalidate>
+                <div class="form-group">
+                  <label for="formName" class="form-label">
+                    <span class="label-prefix">&gt;</span> Nome Completo:
+                  </label>
+                  <div class="input-wrapper">
+                    <input type="text" id="formName" name="name" class="terminal-input" placeholder="Digite seu nome ou identificação..." required autocomplete="name">
+                  </div>
+                  <span class="field-error" id="nameError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="formEmail" class="form-label">
+                    <span class="label-prefix">&gt;</span> Seu E-mail:
+                  </label>
+                  <div class="input-wrapper">
+                    <input type="email" id="formEmail" name="email" class="terminal-input" placeholder="exemplo@dominio.com" required autocomplete="email">
+                  </div>
+                  <span class="field-error" id="emailError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="formSubject" class="form-label">
+                    <span class="label-prefix">&gt;</span> Assunto / Finalidade:
+                  </label>
+                  <div class="input-wrapper">
+                    <input type="text" id="formSubject" name="subject" class="terminal-input" placeholder="Ex: Proposta de projeto, colaboração técnica..." required>
+                  </div>
+                  <span class="field-error" id="subjectError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="formMessage" class="form-label">
+                    <span class="label-prefix">&gt;</span> Mensagem:
+                  </label>
+                  <div class="input-wrapper">
+                    <textarea id="formMessage" name="message" class="terminal-textarea" rows="4" placeholder="Escreva os detalhes da mensagem aqui..." required></textarea>
+                  </div>
+                  <span class="field-error" id="messageError"></span>
+                </div>
+
+                <!-- Live Status Feedback Container -->
+                <div class="terminal-log-output" id="terminalLog" aria-live="polite">
+                  <span class="log-indicator">[STATUS: PRONTO]</span> Aguardando dados do usuário...
+                </div>
+
+                <div class="form-actions">
+                  <button type="submit" class="btn btn-primary btn-submit-terminal" id="submitBtn">
+                    <span class="btn-text">Transmitir Mensagem</span>
+                    <svg class="send-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="22" y1="2" x2="11" y2="13"></line>
+                      <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                  </button>
+
+                  <button type="reset" class="btn btn-secondary btn-reset-terminal" id="resetBtn">
+                    Limpar
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <!-- Contact Direct Info Card -->
+          <div class="contact-info-card glow-card">
+            <div class="info-card-header">
+              <span class="section-tag">// PONTO DE CONTATO DIRETO</span>
+              <h3 class="info-card-title">Canais Oficiais</h3>
+            </div>
+
+            <div class="direct-contact-block">
+              <span class="contact-meta-label">E-mail Acadêmico / Principal</span>
+              <div class="email-copy-box">
+                <span class="email-value" id="officialEmailText">35251@raphaeldisanto</span>
+                <button type="button" class="btn-copy-small" id="btnCopyOfficialEmail" title="Copiar e-mail" aria-label="Copiar e-mail oficial">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="student-meta-list">
+              <div class="meta-item">
+                <span class="meta-label">Desenvolvedor:</span>
+                <span class="meta-data">Rafael Pariz de Moraes</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Série & Curso:</span>
+                <span class="meta-data">2º ano B - Técnico em TI</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Disponibilidade:</span>
+                <span class="meta-data status-available">
+                  <span class="pulse-beacon green"></span> Disponível para novos projetos
+                </span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Deploy Platform:</span>
+                <span class="meta-data">Vercel Cloud Edge</span>
+              </div>
+            </div>
+
+            <div class="info-card-terminal-note">
+              <p>
+                <strong>⚡ Resposta Rápida:</strong> Todas as mensagens enviadas através do terminal geram uma notificação direcionada para a caixa postal <code>35251@raphaeldisanto</code>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- RODAPÉ TECH -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <a href="#hero" class="brand-logo footer-logo">
+          <span class="logo-bracket">&lt;</span>
+          <span class="logo-code">RP</span>
+          <span class="logo-bracket">/&gt;</span>
+        </a>
+        <p class="footer-copy">
+          &copy; 2026 <strong>Rafael Pariz de Moraes</strong>. Todos os direitos reservados.
+          <br>
+          <span class="footer-sub">2º ano B - Técnico em TI | Desenvolvido com HTML5, CSS3 e JavaScript puro.</span>
+        </p>
+      </div>
+
+      <div class="footer-center">
+        <div class="footer-badge">
+          <span class="dot-online"></span>
+          <span>Rolagem 100% Nativa & Fluida</span>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <a href="#hero" class="btn-back-to-top" id="btnBackToTop" aria-label="Voltar ao início">
+          <span>Voltar ao Topo</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal de Detalhes Técnicos do Projeto -->
+  <div class="project-modal" id="projectModal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+    <div class="modal-overlay" id="modalOverlay"></div>
+    <div class="modal-container glow-card">
+      <div class="modal-header">
+        <div class="terminal-dots">
+          <span class="dot dot-red"></span>
+          <span class="dot dot-yellow"></span>
+          <span class="dot dot-green"></span>
+        </div>
+        <h3 class="modal-title" id="modalTitle">Detalhes Técnicos</h3>
+        <button class="modal-close-btn" id="modalCloseBtn" aria-label="Fechar janela modal">&times;</button>
+      </div>
+      <div class="modal-body" id="modalBody">
+        <!-- Preenchido dinamicamente via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Alert -->
+  <div class="cyber-toast" id="cyberToast" role="status" aria-live="polite">
+    <div class="toast-icon" id="toastIcon">✓</div>
+    <div class="toast-message" id="toastMessage">Operação realizada com sucesso!</div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
